@@ -1,0 +1,25 @@
+{
+  "name": "Bela-Rotas",
+  "version": "1.0.0",
+  "description": "Implementação do site comercial",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.2.3",
+    "pg": "^8.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "prettier": "^3.0.0"
+  }
+}
